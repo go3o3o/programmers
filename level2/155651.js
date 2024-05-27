@@ -38,7 +38,8 @@ function solution(book_time) {
       if (!flag) answer.push(checkOut + 10);
     }
   });
-  console.log(answer);
+
+  return answer.length;
 }
 
 solution(book_time);
